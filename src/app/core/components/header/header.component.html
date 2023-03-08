@@ -1,0 +1,17 @@
+<header>
+    <img src="../../../../assets/logo.svg" alt="Logo">
+
+    <ul>
+        <li>
+            <a [routerLink]="['']">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="['about']">About</a>
+        </li>
+        <li>
+            <button type="button" (click)="toggle()">
+                <img src="../../../../assets/{{ icon }}.svg" alt="Change the theme to {{ textTheme }}">
+            </button>
+        </li>
+    </ul>
+</header>
